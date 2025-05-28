@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7ADFFF;
+}
+
+.container{
+    max-width: 1200px;
+    min-height: 800px;
+    margin:72px auto;
+    padding: 0px 20px;
+}
+
+.box{
+    width: 100%;
+    background-color: white;
+    height: 269px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+@media (max-width:1200px){
+    .grid{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (max-width:450px){
+    .grid{
+        grid-template-columns: 1fr ;
+    }
+}
