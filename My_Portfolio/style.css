@@ -27,7 +27,7 @@ p{
 font-size: 16px;
 }
 html,body{
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-primary);
     color:var(--light);
 }
 
@@ -153,5 +153,66 @@ button {
         display: flex;
         flex-direction: column;
         gap: 50px;
+    }
+
+    p{
+        font-size: 18px;
+        padding-right: 40px;
+        line-height: 28px;
+    }
+}
+
+/* Project Section */
+
+.project_section{
+    padding: 110px 80px;
+
+
+    .project_card{
+        background-color: var(--bg-secondary);
+        padding: 60px 40px;
+        border: 1px solid var(--green);
+        border-radius: 10px;
+        display: flex;
+        .left_card{
+            .project_overview{
+
+                .title{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    .number{
+                        background-color: var(--green);
+                        color: var(--bg-primary);
+                        width: 50px;
+                        height: 50px;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        border-radius: 999px;
+                        font-size: 22px;
+                        font-weight: bold;
+                    }
+                       h3{
+                            color: var(--green);
+                        }
+                }
+            }
+            .key_features{
+
+            }
+
+        }
+        .rightcard{
+
+            .image_container{
+              
+             
+            }
+
+            .technology{
+
+            }
+        }
     }
 }
