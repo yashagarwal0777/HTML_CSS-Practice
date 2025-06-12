@@ -166,7 +166,11 @@ button {
 
 .project_section{
     padding: 110px 80px;
-
+   h2{
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 60px;
+   }
 
     .project_card{
         background-color: var(--bg-secondary);
@@ -174,6 +178,7 @@ button {
         border: 1px solid var(--green);
         border-radius: 10px;
         display: flex;
+        gap: 40px;
         .left_card{
             .project_overview{
 
@@ -193,26 +198,85 @@ button {
                         font-size: 22px;
                         font-weight: bold;
                     }
-                       h3{
-                            color: var(--green);
-                        }
+                  h3{
+                    color: var(--green);
+                    font-size: 34px;
+                  }
                 }
+                   p{
+                        margin-top: 20px;
+                        line-height: 34px;
+                        font-size: 18px;
+                    }
             }
             .key_features{
 
-            }
+                margin-top: 60px;
+          
+                  
+                       h3{
+                            font-size: 28px;
+                            color: var(--green);
+                            margin-bottom: 20px;
+                        }
+                        ul{
+                            padding-left: 20px;
+                            li{
+                                margin-top: 20px;
+                                line-height: 28px;
+                            }
 
+                        }
+                          }
         }
         .rightcard{
-
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
             .image_container{
-              
+              img{
+                max-width: 600px;
+                max-height: 500px;
+              }
              
             }
 
             .technology{
-
+                h3{
+                   margin-bottom: 20px;
+                   font-size: 28px;
+                }
+                ul{
+                    line-height: 2;
+                    font-size: 20px;
+                }
             }
+        }
+    }
+}
+
+
+/* SKILL  Section */
+.skill_section{
+    text-align: center;
+    line-height: 2.5;
+    .skill{
+        line-height: 2;
+        margin-bottom: 35px;
+    }
+}
+
+/* Contact Section */
+.contact_section{
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    gap: 115px;
+    padding: 140px 80px;
+    .image_container{
+        img{
+            max-width: 580px;
+            max-height: 600px;
         }
     }
 }
