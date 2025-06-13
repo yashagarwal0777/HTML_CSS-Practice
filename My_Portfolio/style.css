@@ -279,4 +279,27 @@ button {
             max-height: 600px;
         }
     }
+
+    .content{
+        line-height: 2.5;
+
+        p{
+            line-height: 1.2;
+        }
+
+        .linkedin_container{
+            display: flex;
+            margin-top: 40px;
+            gap: 20px;
+
+            .Linkedin img{
+                height: 50px;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
 }
